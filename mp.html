@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body{
+            height:1000px;
+            align-content: center;
+        }
+        .grid-container{
+            display:grid;
+            max-width: 500px;
+            height: 500px;
+            text-align: center;
+            align-content: center;
+            
+        }
+        .item1{
+            grid-column-start: 2;
+            grid-column-end: 2;
+            background-color:skyblue;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            align-content: center;
+        }
+        .item2{
+            grid-column-start: 2;
+            grid-column-end: 2;
+            background-color:skyblue;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            padding: 7%;
+            font-style: bold;
+            height: 500px;
+            font-size: larger;
+        }
+        .item3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-color:snow;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }   
+        .box{
+            padding: 30px;
+            max-width: 500px;
+            height:550px;
+            background-color: snow;
+            margin:0px auto;
+            box-shadow: 2px 2px 2px 2px slategray;
+            align-content: center;
+        }
+        .formm{
+            margin: 0px auto;
+            padding:10%;
+            padding-left: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container" style="height:100%;">
+        <div class="item1" style="min-height: 130px;">
+        </div>
+        <div class="item2" style="overflow: auto;min-height: 700px;"> <center>SIGN IN</center>
+            <div class="box" id="includedContent">
+                <div class="formm">
+                <b>Email</b><br>
+                <input type="text" placeholder="Enter your email"><br><br>
+                
+                <b>Password</b><br>
+                <input type="password" placeholder="Enter your password"><br><br>forgot your password?<br><br>
+                <input type="button" style="background-color:black;color:white;width:150px;
+height:40px;" value="SIGN IN"><br><br>---------------------<br>OR<br>
+                <input type="button" style="background-color:midnightblue;color:white;width:150px;
+                height:30px;" value="f"><br>
+                 <input type="button" style="background-color:palevioletred;color:white;width:150px;
+                 height:30px;" value="g"><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="item3" style="min-height: 100px;"></div>
+    </div>
+    
+</body>
+</html>
